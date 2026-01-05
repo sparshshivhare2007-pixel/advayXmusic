@@ -6,8 +6,8 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from DestinyxMusicicicicic import LOGGER, app, userbot
-from DestinyxMusicic.core.call import StreamController
+from DestinyxMusicicicic import LOGGER, app, userbot
+from DestinyxMusic.core.call import StreamController
 from DestinyxMusic.misc import sudo
 from DestinyxMusic.plugins import ALL_MODULES
 from DestinyxMusic.utils.database import get_banned_users, get_gbanned
