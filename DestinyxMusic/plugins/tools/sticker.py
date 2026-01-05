@@ -9,7 +9,7 @@ from pyrogram import raw, filters
 from pyrogram.errors import StickersetInvalid
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from AnnieXMedia import app
+from DestinyxMusic import app
 from config import BOT_USERNAME
 
 

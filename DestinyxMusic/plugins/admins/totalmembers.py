@@ -3,8 +3,8 @@ import csv
 from io import StringIO, BytesIO
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from AnnieXMedia import app
-from AnnieXMedia.utils.admin_filters import admin_filter
+from DestinyxMusic import app
+from DestinyxMusic.utils.admin_filters import admin_filter
 
 async def collect_members(chat_id, processing_msg):
     members_list = []

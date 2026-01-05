@@ -3,14 +3,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from AnnieXMedia import YouTube, app
-from AnnieXMedia.core.call import StreamController
-from AnnieXMedia.misc import db
-from AnnieXMedia.utils.database import get_loop
-from AnnieXMedia.utils.decorators import AdminRightsCheck
-from AnnieXMedia.utils.inline import close_markup, stream_markup
-from AnnieXMedia.utils.stream.autoclear import auto_clean
-from AnnieXMedia.utils.thumbnails import get_thumb
+from DestinyxMusic import YouTube, app
+from DestinyxMusic.core.call import StreamController
+from DestinyxMusic.misc import db
+from DestinyxMusic.utils.database import get_loop
+from DestinyxMusic.utils.decorators import AdminRightsCheck
+from DestinyxMusic.utils.inline import close_markup, stream_markup
+from DestinyxMusic.utils.stream.autoclear import auto_clean
+from DestinyxMusic.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 

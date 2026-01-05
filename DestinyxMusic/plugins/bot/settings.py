@@ -4,8 +4,8 @@ from pyrogram.enums import ChatType
 from pyrogram.errors import MessageNotModified
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from AnnieXMedia import app
-from AnnieXMedia.utils.database import (
+from DestinyxMusic import app
+from DestinyxMusic.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
@@ -21,15 +21,15 @@ from AnnieXMedia.utils.database import (
     skip_off,
     skip_on,
 )
-from AnnieXMedia.utils.decorators.admins import ActualAdminCB
-from AnnieXMedia.utils.decorators.language import language, languageCB
-from AnnieXMedia.utils.inline.settings import (
+from DestinyxMusic.utils.decorators.admins import ActualAdminCB
+from DestinyxMusic.utils.decorators.language import language, languageCB
+from DestinyxMusic.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
     vote_mode_markup,
 )
-from AnnieXMedia.utils.inline.start import private_panel
+from DestinyxMusic.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID
 
 # ─── SETTINGS MESSAGE ──────────────────────────────────────────────

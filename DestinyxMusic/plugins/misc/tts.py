@@ -10,7 +10,7 @@ from pyrogram import Client, filters
 from pyrogram.enums import ChatAction, ParseMode
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from AnnieXMedia import app
+from DestinyxMusic import app
 
 _voice_sessions: Dict[Tuple[int, int], str] = {}
 _voices: List[dict] = []

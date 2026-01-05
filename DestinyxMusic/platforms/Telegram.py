@@ -7,8 +7,8 @@ from typing import Optional, Union
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Voice
 
 import config
-from AnnieXMedia import app
-from AnnieXMedia.utils.formatters import (
+from DestinyxMusic import app
+from DestinyxMusic.utils.formatters import (
     check_duration,
     convert_bytes,
     get_readable_time,

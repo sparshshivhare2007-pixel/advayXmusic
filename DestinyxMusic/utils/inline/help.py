@@ -1,6 +1,6 @@
 ﻿# Authored By Certified Coders © 2025
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from AnnieXMedia import app
+from DestinyxMusic import app
 
 
 TOTAL_SECTIONS = 29

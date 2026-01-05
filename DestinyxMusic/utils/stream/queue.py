@@ -2,8 +2,8 @@
 import asyncio
 from typing import Union
 
-from AnnieXMedia.misc import db
-from AnnieXMedia.utils.formatters import check_duration, seconds_to_min
+from DestinyxMusic.misc import db
+from DestinyxMusic.utils.formatters import check_duration, seconds_to_min
 from config import autoclean, time_to_seconds
 
 

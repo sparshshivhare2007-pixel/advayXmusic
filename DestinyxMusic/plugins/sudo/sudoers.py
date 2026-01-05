@@ -3,11 +3,11 @@ from pyrogram import filters
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS, OWNER_ID
-from AnnieXMedia import app
-from AnnieXMedia.misc import SUDOERS
-from AnnieXMedia.utils.database import add_sudo, remove_sudo
-from AnnieXMedia.utils.decorators.language import language
-from AnnieXMedia.utils.extraction import extract_user
+from DestinyxMusic import app
+from DestinyxMusic.misc import SUDOERS
+from DestinyxMusic.utils.database import add_sudo, remove_sudo
+from DestinyxMusic.utils.decorators.language import language
+from DestinyxMusic.utils.extraction import extract_user
 
 # ─── Add Sudo ─────────────────────────────────────────────
 

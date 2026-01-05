@@ -2,12 +2,12 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from AnnieXMedia import app
-from AnnieXMedia.utils.database import get_playmode, get_playtype, is_nonadmin_chat
-from AnnieXMedia.utils.decorators import language
-from AnnieXMedia.utils.inline.settings import playmode_users_markup
+from DestinyxMusic import app
+from DestinyxMusic.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from DestinyxMusic.utils.decorators import language
+from DestinyxMusic.utils.inline.settings import playmode_users_markup
 from config import BANNED_USERS
-from AnnieXMedia.utils.errors import capture_err
+from DestinyxMusic.utils.errors import capture_err
 
 
 @app.on_message(filters.command(["playmode" , "mode" ] ,prefixes=["/", "!", "%", ",", ".", "@", "#"]) & filters.group & ~BANNED_USERS)

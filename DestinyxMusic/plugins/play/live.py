@@ -2,11 +2,11 @@
 import random
 from pyrogram import filters
 
-from AnnieXMedia import YouTube, app
-from AnnieXMedia.utils.channelplay import get_channeplayCB
-from AnnieXMedia.utils.decorators.language import languageCB
-from AnnieXMedia.utils.errors import capture_callback_err
-from AnnieXMedia.utils.stream.stream import stream
+from DestinyxMusic import YouTube, app
+from DestinyxMusic.utils.channelplay import get_channeplayCB
+from DestinyxMusic.utils.decorators.language import languageCB
+from DestinyxMusic.utils.errors import capture_callback_err
+from DestinyxMusic.utils.stream.stream import stream
 from config import AYU, BANNED_USERS
 
 

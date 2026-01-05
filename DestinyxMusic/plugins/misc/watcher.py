@@ -2,8 +2,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnnieXMedia import app
-from AnnieXMedia.core.call import StreamController
+from DestinyxMusic import app
+from DestinyxMusic.core.call import StreamController
 
 welcome = 20
 close = 30

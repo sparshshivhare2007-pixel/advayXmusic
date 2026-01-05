@@ -2,10 +2,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnnieXMedia import app
-from AnnieXMedia.misc import SUDOERS
-from AnnieXMedia.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
-from AnnieXMedia.utils.decorators.language import language
+from DestinyxMusic import app
+from DestinyxMusic.misc import SUDOERS
+from DestinyxMusic.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
+from DestinyxMusic.utils.decorators.language import language
 from config import BANNED_USERS
 
 

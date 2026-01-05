@@ -2,7 +2,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.enums import ParseMode
-from AnnieXMedia import app
+from DestinyxMusic import app
 import httpx
 import re
 

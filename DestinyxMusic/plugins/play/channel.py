@@ -3,10 +3,10 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter, ChatMemberStatus, ChatType
 from pyrogram.types import Message
 
-from AnnieXMedia import app
-from AnnieXMedia.utils.database import set_cmode
-from AnnieXMedia.utils.decorators.admins import AdminActual
-from AnnieXMedia.utils.errors import capture_err
+from DestinyxMusic import app
+from DestinyxMusic.utils.database import set_cmode
+from DestinyxMusic.utils.decorators.admins import AdminActual
+from DestinyxMusic.utils.errors import capture_err
 
 from config import BANNED_USERS
 

@@ -3,7 +3,7 @@ from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import random
 import requests
-from AnnieXMedia import app
+from DestinyxMusic import app
 
 SUPPORT_CHAT = "CERTIFIEDCODERS"
 SUPPORT_BTN = InlineKeyboardMarkup(

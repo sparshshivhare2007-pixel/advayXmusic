@@ -2,10 +2,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnnieXMedia import app
-from AnnieXMedia.utils.database import get_loop, set_loop
-from AnnieXMedia.utils.decorators import AdminRightsCheck
-from AnnieXMedia.utils.inline import close_markup
+from DestinyxMusic import app
+from DestinyxMusic.utils.database import get_loop, set_loop
+from DestinyxMusic.utils.decorators import AdminRightsCheck
+from DestinyxMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 

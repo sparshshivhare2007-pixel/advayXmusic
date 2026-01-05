@@ -4,7 +4,7 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import Message
 from pydub import AudioSegment
-from AnnieXMedia import app
+from DestinyxMusic import app
 
 MAX_SIZE_MB = 50
 MAX_SIZE_BYTES = MAX_SIZE_MB * 1024 * 1024

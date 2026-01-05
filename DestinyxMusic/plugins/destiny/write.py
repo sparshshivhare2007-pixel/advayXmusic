@@ -3,7 +3,7 @@ from pyrogram import Client, filters, enums
 from pyrogram.types import Message
 from datetime import datetime
 from config import BOT_USERNAME
-from AnnieXMedia import app
+from DestinyxMusic import app
 import requests
 
 

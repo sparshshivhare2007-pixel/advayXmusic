@@ -4,10 +4,10 @@ import random
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnnieXMedia import app
-from AnnieXMedia.misc import db
-from AnnieXMedia.utils.decorators import AdminRightsCheck
-from AnnieXMedia.utils.inline import close_markup
+from DestinyxMusic import app
+from DestinyxMusic.misc import db
+from DestinyxMusic.utils.decorators import AdminRightsCheck
+from DestinyxMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 

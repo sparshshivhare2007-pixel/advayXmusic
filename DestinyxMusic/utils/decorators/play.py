@@ -13,9 +13,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from strings import get_string
-from AnnieXMedia import YouTube, app
-from AnnieXMedia.misc import SUDOERS
-from AnnieXMedia.utils.database import (
+from DestinyxMusic import YouTube, app
+from DestinyxMusic.misc import SUDOERS
+from DestinyxMusic.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -24,7 +24,7 @@ from AnnieXMedia.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from AnnieXMedia.utils.inline import botplaylist_markup
+from DestinyxMusic.utils.inline import botplaylist_markup
 
 # Cache for invite links per chat
 links = {}

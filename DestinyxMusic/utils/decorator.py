@@ -7,7 +7,7 @@ from pyrogram.enums import ChatMemberStatus, ChatType
 from pyrogram.types import Message
 
 from config import BOT_USERNAME
-from AnnieXMedia.misc import SUDOERS, COMMANDERS
+from DestinyxMusic.misc import SUDOERS, COMMANDERS
 
 
 Handler = Callable[..., Awaitable[Any]]

@@ -2,7 +2,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton as ikb, InlineKeyboardMarkup as ikm, Message
 from pyrogram.enums import ChatAction, ParseMode
-from AnnieXMedia import app
+from DestinyxMusic import app
 import pyshorteners
 import httpx
 

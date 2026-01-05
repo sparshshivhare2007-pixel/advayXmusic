@@ -1,6 +1,6 @@
 ﻿# Authored By Certified Coders © 2025
 from pyrogram import filters
-from AnnieXMedia import app
+from DestinyxMusic import app
 
 # Dice 🎲
 @app.on_message(filters.command("dice"))

@@ -7,8 +7,8 @@ from pyrogram.enums import ChatMemberStatus, ChatMembersFilter
 from pyrogram.types import Message, User
 from pyrogram.errors import RPCError
 
-from AnnieXMedia.misc import SUDOERS
-from AnnieXMedia.logging import LOGGER
+from DestinyxMusic.misc import SUDOERS
+from DestinyxMusic.logging import LOGGER
 
 
 # ────────────────────────────────────────────────────────────

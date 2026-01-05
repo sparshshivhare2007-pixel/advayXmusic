@@ -1,8 +1,8 @@
 ﻿# Authored By Certified Coders © 2025
 from pyrogram.enums import ParseMode
 
-from AnnieXMedia import app
-from AnnieXMedia.utils.database import is_on_off
+from DestinyxMusic import app
+from DestinyxMusic.utils.database import is_on_off
 from config import LOGGER_ID
 
 

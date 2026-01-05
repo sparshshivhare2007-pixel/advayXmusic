@@ -2,9 +2,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnnieXMedia import app
-from AnnieXMedia.misc import SUDOERS
-from AnnieXMedia.utils.database import (
+from DestinyxMusic import app
+from DestinyxMusic.misc import SUDOERS
+from DestinyxMusic.utils.database import (
     get_lang,
     is_maintenance,
     maintenance_off,

@@ -5,15 +5,15 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 
 import config
-from AnnieXMedia import app
-from AnnieXMedia.core.call import StreamController, autoend
-from AnnieXMedia.utils.database import get_client, is_active_chat, is_autoend
+from DestinyxMusic import app
+from DestinyxMusic.core.call import StreamController, autoend
+from DestinyxMusic.utils.database import get_client, is_active_chat, is_autoend
 
 
 async def auto_leave():
     if config.AUTO_LEAVING_ASSISTANT:
         while not await asyncio.sleep(config.AUTO_LEAVE_ASSISTANT_TIME):
-            from AnnieXMedia.core.userbot import assistants
+            from DestinyxMusic.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)

@@ -1,7 +1,7 @@
 ﻿# Authored By Certified Coders © 2025
 from datetime import datetime, timedelta, timezone
 from typing import Optional
-from AnnieXMedia.core.mongo import mongodb
+from DestinyxMusic.core.mongo import mongodb
 
 _col = mongodb["welcome"]
 

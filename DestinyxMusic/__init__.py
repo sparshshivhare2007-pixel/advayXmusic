@@ -1,9 +1,9 @@
 ﻿# Authored By Certified Coders © 2025
-from AnnieXMedia.core.bot import MusicBotClient
-from AnnieXMedia.core.dir import StorageManager
-from AnnieXMedia.core.git import git
-from AnnieXMedia.core.userbot import Userbot
-from AnnieXMedia.misc import dbb, heroku
+from DestinyxMusic.core.bot import MusicBotClient
+from DestinyxMusic.core.dir import StorageManager
+from DestinyxMusic.core.git import git
+from DestinyxMusic.core.userbot import Userbot
+from DestinyxMusic.misc import dbb, heroku
 
 from .logging import LOGGER
 

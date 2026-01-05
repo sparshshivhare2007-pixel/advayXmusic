@@ -3,9 +3,9 @@ from pyrogram import filters, Client
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from unidecode import unidecode
 
-from AnnieXMedia import app
-from AnnieXMedia.misc import SUDOERS
-from AnnieXMedia.utils.database import (
+from DestinyxMusic import app
+from DestinyxMusic.misc import SUDOERS
+from DestinyxMusic.utils.database import (
     get_active_chats,
     get_active_video_chats,
     remove_active_chat,

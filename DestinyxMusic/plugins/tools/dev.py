@@ -11,7 +11,7 @@ from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from config import OWNER_ID
-from AnnieXMedia import app
+from DestinyxMusic import app
 
 
 async def aexec(code, client, message):

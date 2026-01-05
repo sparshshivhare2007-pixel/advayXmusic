@@ -5,7 +5,7 @@ from pyrogram import Client, filters, enums
 from pyrogram.types import Message
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
-from AnnieXMedia import app
+from DestinyxMusic import app
 
 
 def download_website(url):

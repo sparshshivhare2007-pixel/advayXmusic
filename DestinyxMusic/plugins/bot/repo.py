@@ -1,7 +1,7 @@
 ﻿# Authored By Certified Coders © 2025
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from AnnieXMedia import app
+from DestinyxMusic import app
 from config import BOT_USERNAME
 
 repo_caption = """**

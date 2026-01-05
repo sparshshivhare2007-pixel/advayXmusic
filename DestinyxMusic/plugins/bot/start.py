@@ -8,11 +8,11 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.aio import VideosSearch
 
 import config
-from AnnieXMedia import app
-from AnnieXMedia.misc import _boot_
-from AnnieXMedia.plugins.sudo.sudoers import sudoers_list
-from AnnieXMedia.utils import bot_sys_stats
-from AnnieXMedia.utils.database import (
+from DestinyxMusic import app
+from DestinyxMusic.misc import _boot_
+from DestinyxMusic.plugins.sudo.sudoers import sudoers_list
+from DestinyxMusic.utils import bot_sys_stats
+from DestinyxMusic.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -22,10 +22,10 @@ from AnnieXMedia.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from AnnieXMedia.utils.decorators.language import LanguageStart
-from AnnieXMedia.utils.formatters import get_readable_time
-from AnnieXMedia.utils.inline.start import private_panel, start_panel
-from AnnieXMedia.utils.inline.help import first_page
+from DestinyxMusic.utils.decorators.language import LanguageStart
+from DestinyxMusic.utils.formatters import get_readable_time
+from DestinyxMusic.utils.inline.start import private_panel, start_panel
+from DestinyxMusic.utils.inline.help import first_page
 from config import BANNED_USERS, AYUV, HELP_IMG_URL, START_VIDS, STICKERS
 from strings import get_string
 

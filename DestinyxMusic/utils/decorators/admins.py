@@ -2,9 +2,9 @@
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from AnnieXMedia import app
-from AnnieXMedia.misc import SUDOERS, db
-from AnnieXMedia.utils.database import (
+from DestinyxMusic import app
+from DestinyxMusic.misc import SUDOERS, db
+from DestinyxMusic.utils.database import (
     get_authuser_names,
     get_cmode,
     get_lang,

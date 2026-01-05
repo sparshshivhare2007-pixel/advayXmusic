@@ -6,7 +6,7 @@ from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.enums import ParseMode
 
-from AnnieXMedia import app
+from DestinyxMusic import app
 
 
 def _safe(x: str | None) -> str:

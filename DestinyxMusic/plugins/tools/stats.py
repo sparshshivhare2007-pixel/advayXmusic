@@ -10,13 +10,13 @@ from pyrogram.types import InputMediaVideo, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from AnnieXMedia import app
-from AnnieXMedia.core.userbot import assistants
-from AnnieXMedia.misc import SUDOERS, mongodb
-from AnnieXMedia.plugins import ALL_MODULES
-from AnnieXMedia.utils.database import get_served_chats, get_served_users, get_sudoers
-from AnnieXMedia.utils.decorators.language import language, languageCB
-from AnnieXMedia.utils.inline.stats import (
+from DestinyxMusic import app
+from DestinyxMusic.core.userbot import assistants
+from DestinyxMusic.misc import SUDOERS, mongodb
+from DestinyxMusic.plugins import ALL_MODULES
+from DestinyxMusic.utils.database import get_served_chats, get_served_users, get_sudoers
+from DestinyxMusic.utils.decorators.language import language, languageCB
+from DestinyxMusic.utils.inline.stats import (
     build_stats_keyboard,
     build_back_keyboard,
     StatsCallbacks,

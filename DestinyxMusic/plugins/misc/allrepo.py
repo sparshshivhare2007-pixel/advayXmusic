@@ -2,7 +2,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 import httpx
-from AnnieXMedia import app
+from DestinyxMusic import app
 
 
 def chunk_string(text, chunk_size):

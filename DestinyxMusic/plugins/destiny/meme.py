@@ -1,7 +1,7 @@
 ﻿# Authored By Certified Coders © 2025
 from pyrogram import Client, filters
 import requests
-from AnnieXMedia import app
+from DestinyxMusic import app
 
 
 @app.on_message(filters.command("meme"))

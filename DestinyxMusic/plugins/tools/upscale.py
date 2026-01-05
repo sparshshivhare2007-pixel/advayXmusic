@@ -4,7 +4,7 @@ import aiohttp
 import aiofiles
 
 from config import DEEP_API
-from AnnieXMedia import app
+from DestinyxMusic import app
 from pyrogram import filters
 from pyrogram.types import Message
 

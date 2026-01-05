@@ -1,7 +1,7 @@
 ﻿# Authored By Certified Coders © 2025
 from pyrogram import filters
 import random
-from AnnieXMedia import app
+from DestinyxMusic import app
 
 
 def get_random_message(love_percentage):

@@ -5,9 +5,9 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 from config import COOKIE_URL
-from AnnieXMedia.utils.errors import capture_internal_err
+from DestinyxMusic.utils.errors import capture_internal_err
 
-COOKIE_PATH = Path("AnnieXMedia/assets/cookies.txt")
+COOKIE_PATH = Path("DestinyxMusic/assets/cookies.txt")
 
 
 def _extract_paste_id(url: str) -> str:

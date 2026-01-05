@@ -7,12 +7,12 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
-from AnnieXMedia import app
-from AnnieXMedia.misc import db
-from AnnieXMedia.utils import ANNIEBIN, get_channeplayCB, seconds_to_min
-from AnnieXMedia.utils.database import get_cmode, is_active_chat, is_music_playing
-from AnnieXMedia.utils.decorators.language import language, languageCB
-from AnnieXMedia.utils.inline import queue_back_markup, queue_markup
+from DestinyxMusic import app
+from DestinyxMusic.misc import db
+from DestinyxMusic.utils import ANNIEBIN, get_channeplayCB, seconds_to_min
+from DestinyxMusic.utils.database import get_cmode, is_active_chat, is_music_playing
+from DestinyxMusic.utils.decorators.language import language, languageCB
+from DestinyxMusic.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
 basic = {}

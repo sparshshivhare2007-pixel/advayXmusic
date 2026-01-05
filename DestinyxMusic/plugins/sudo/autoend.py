@@ -2,9 +2,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnnieXMedia import app
-from AnnieXMedia.misc import SUDOERS
-from AnnieXMedia.utils.database import autoend_off, autoend_on
+from DestinyxMusic import app
+from DestinyxMusic.misc import SUDOERS
+from DestinyxMusic.utils.database import autoend_off, autoend_on
 
 
 @app.on_message(filters.command("autoend") & SUDOERS)

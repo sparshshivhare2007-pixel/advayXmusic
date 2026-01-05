@@ -3,13 +3,13 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS, adminlist
-from AnnieXMedia import app
-from AnnieXMedia.core.call import StreamController
-from AnnieXMedia.misc import SUDOERS, db
-from AnnieXMedia.utils import AdminRightsCheck
-from AnnieXMedia.utils.database import is_active_chat, is_nonadmin_chat
-from AnnieXMedia.utils.decorators.language import languageCB
-from AnnieXMedia.utils.inline import close_markup, speed_markup
+from DestinyxMusic import app
+from DestinyxMusic.core.call import StreamController
+from DestinyxMusic.misc import SUDOERS, db
+from DestinyxMusic.utils import AdminRightsCheck
+from DestinyxMusic.utils.database import is_active_chat, is_nonadmin_chat
+from DestinyxMusic.utils.decorators.language import languageCB
+from DestinyxMusic.utils.inline import close_markup, speed_markup
 
 checker = []
 

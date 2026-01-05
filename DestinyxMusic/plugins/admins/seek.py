@@ -2,11 +2,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnnieXMedia import YouTube, app
-from AnnieXMedia.core.call import StreamController
-from AnnieXMedia.misc import db
-from AnnieXMedia.utils import AdminRightsCheck, seconds_to_min
-from AnnieXMedia.utils.inline import close_markup
+from DestinyxMusic import YouTube, app
+from DestinyxMusic.core.call import StreamController
+from DestinyxMusic.misc import db
+from DestinyxMusic.utils import AdminRightsCheck, seconds_to_min
+from DestinyxMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 

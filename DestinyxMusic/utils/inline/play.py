@@ -1,7 +1,7 @@
 ﻿# Authored By Certified Coders © 2025
 import time
 from pyrogram.types import InlineKeyboardButton
-from AnnieXMedia.utils.formatters import time_to_seconds
+from DestinyxMusic.utils.formatters import time_to_seconds
 
 LAST_UPDATE_TIME = {}
 

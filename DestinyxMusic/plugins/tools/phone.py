@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.enums import ParseMode
 from pyrogram.types import Message
 
-from AnnieXMedia import app
+from DestinyxMusic import app
 
 API_KEY = "f66950368a61ebad3cba9b5924b4532d"
 API_URL = "http://apilayer.net/api/validate"

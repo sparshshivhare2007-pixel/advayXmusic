@@ -5,7 +5,7 @@ from pyrogram.types import Message
 from pyrogram.enums import ParseMode
 from pymongo import MongoClient
 
-from AnnieXMedia import app
+from DestinyxMusic import app
 
 mongo_url_pattern = re.compile(r"mongodb(?:\+srv)?:\/\/[^\s]+")
 

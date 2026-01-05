@@ -1,12 +1,12 @@
 ﻿# Authored By Certified Coders © 2025
 from pyrogram import filters
 from pyrogram.types import Message
-from AnnieXMedia import app
-from AnnieXMedia.mongo.pretenderdb import (
+from DestinyxMusic import app
+from DestinyxMusic.mongo.pretenderdb import (
     impo_off, impo_on, check_pretender,
     add_userdata, get_userdata, usr_data
 )
-from AnnieXMedia.utils.admin_filters import admin_filter
+from DestinyxMusic.utils.admin_filters import admin_filter
 
 @app.on_message(filters.group & ~filters.bot & ~filters.via_bot, group=69)
 async def chk_usr(_, message: Message):

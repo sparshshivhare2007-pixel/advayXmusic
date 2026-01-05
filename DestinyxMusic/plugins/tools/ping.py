@@ -4,11 +4,11 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message
 from config import *
-from AnnieXMedia import app
-from AnnieXMedia.core.call import StreamController
-from AnnieXMedia.utils import bot_sys_stats
-from AnnieXMedia.utils.decorators.language import language
-from AnnieXMedia.utils.inline import supp_markup
+from DestinyxMusic import app
+from DestinyxMusic.core.call import StreamController
+from DestinyxMusic.utils import bot_sys_stats
+from DestinyxMusic.utils.decorators.language import language
+from DestinyxMusic.utils.inline import supp_markup
 from config import BANNED_USERS, PING_VID_URL
 
 

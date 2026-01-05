@@ -6,16 +6,16 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from AnnieXMedia import Carbon, YouTube, app
-from AnnieXMedia.core.call import StreamController
-from AnnieXMedia.misc import db
-from AnnieXMedia.utils.database import add_active_video_chat, is_active_chat
-from AnnieXMedia.utils.exceptions import AssistantErr
-from AnnieXMedia.utils.inline import aq_markup, close_markup, stream_markup
-from AnnieXMedia.utils.pastebin import ANNIEBIN
-from AnnieXMedia.utils.stream.queue import put_queue, put_queue_index
-from AnnieXMedia.utils.thumbnails import get_thumb
-from AnnieXMedia.utils.errors import capture_internal_err
+from DestinyxMusic import Carbon, YouTube, app
+from DestinyxMusic.core.call import StreamController
+from DestinyxMusic.misc import db
+from DestinyxMusic.utils.database import add_active_video_chat, is_active_chat
+from DestinyxMusic.utils.exceptions import AssistantErr
+from DestinyxMusic.utils.inline import aq_markup, close_markup, stream_markup
+from DestinyxMusic.utils.pastebin import ANNIEBIN
+from DestinyxMusic.utils.stream.queue import put_queue, put_queue_index
+from DestinyxMusic.utils.thumbnails import get_thumb
+from DestinyxMusic.utils.errors import capture_internal_err
 
 
 @capture_internal_err

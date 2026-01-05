@@ -1,6 +1,6 @@
 ﻿# Authored By Certified Coders © 2025
 from pyrogram import filters
-from AnnieXMedia import app
+from DestinyxMusic import app
 from config import OWNER_ID
 
 destination_group_id = -1002076109983

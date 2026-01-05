@@ -1,8 +1,8 @@
 ﻿# Authored By Certified Coders © 2025
-from AnnieXMedia import app
+from DestinyxMusic import app
 from config import SUPPORT_CHAT
-from AnnieXMedia.misc import SUDOERS
-from AnnieXMedia.utils.database import get_lang, is_maintenance
+from DestinyxMusic.misc import SUDOERS
+from DestinyxMusic.utils.database import get_lang, is_maintenance
 from strings import get_string
 
 

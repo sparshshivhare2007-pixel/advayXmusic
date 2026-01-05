@@ -19,8 +19,8 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-from AnnieXMedia import app
-from AnnieXMedia.utils.files import resize_file_to_sticker_size
+from DestinyxMusic import app
+from DestinyxMusic.utils.files import resize_file_to_sticker_size
 from config import BOT_USERNAME
 
 BOT = BOT_USERNAME.lstrip("@").lower()

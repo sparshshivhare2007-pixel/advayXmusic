@@ -2,7 +2,7 @@
 from pyrogram.types import InlineKeyboardButton
 
 import config
-from AnnieXMedia import app
+from DestinyxMusic import app
 
 
 def start_panel(_):

@@ -2,7 +2,7 @@
 import requests
 from pyrogram import filters
 from pyrogram.types import Message
-from AnnieXMedia import app
+from DestinyxMusic import app
 
 
 @app.on_message(filters.command("waifu"))

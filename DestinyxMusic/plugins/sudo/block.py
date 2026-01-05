@@ -2,11 +2,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnnieXMedia import app
-from AnnieXMedia.misc import SUDOERS
-from AnnieXMedia.utils.database import add_gban_user, remove_gban_user
-from AnnieXMedia.utils.decorators.language import language
-from AnnieXMedia.utils.extraction import extract_user
+from DestinyxMusic import app
+from DestinyxMusic.misc import SUDOERS
+from DestinyxMusic.utils.database import add_gban_user, remove_gban_user
+from DestinyxMusic.utils.decorators.language import language
+from DestinyxMusic.utils.extraction import extract_user
 from config import BANNED_USERS
 
 

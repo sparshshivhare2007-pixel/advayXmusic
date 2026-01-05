@@ -10,10 +10,10 @@ from datetime import datetime, timedelta
 from motor.motor_asyncio import AsyncIOMotorClient
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from AnnieXMedia import app
+from DestinyxMusic import app
 from config import MONGO_DB_URI, LOGGER_ID, OWNER_ID
-from AnnieXMedia.logging import LOGGER
-from AnnieXMedia.core.dir import BACKUP_DIR
+from DestinyxMusic.logging import LOGGER
+from DestinyxMusic.core.dir import BACKUP_DIR
 
 DB_NAME = "Annie"
 TEMP_DIR = os.path.join(BACKUP_DIR, "tmp")
@@ -57,7 +57,7 @@ async def _create_backup_zip() -> str:
     await asyncio.gather(*tasks)
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    zip_name = f"AnnieXMedia_Backup_{timestamp}.zip"
+    zip_name = f"DestinyxMusic_Backup_{timestamp}.zip"
     zip_path = os.path.join(BACKUP_DIR, zip_name)
 
     LOGGER(__name__).info(f"📦 Creating backup archive: {zip_name}")

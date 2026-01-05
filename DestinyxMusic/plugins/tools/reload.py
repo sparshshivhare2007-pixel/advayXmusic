@@ -6,12 +6,12 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import Message
 
-from AnnieXMedia import app
-from AnnieXMedia.core.call import StreamController
-from AnnieXMedia.misc import db
-from AnnieXMedia.utils.database import get_assistant, get_authuser_names, get_cmode
-from AnnieXMedia.utils.decorators import AdminActual, language
-from AnnieXMedia.utils.formatters import alpha_to_int, get_readable_time
+from DestinyxMusic import app
+from DestinyxMusic.core.call import StreamController
+from DestinyxMusic.misc import db
+from DestinyxMusic.utils.database import get_assistant, get_authuser_names, get_cmode
+from DestinyxMusic.utils.decorators import AdminActual, language
+from DestinyxMusic.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 
 

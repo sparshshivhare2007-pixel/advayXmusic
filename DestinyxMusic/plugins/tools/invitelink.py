@@ -3,8 +3,8 @@ import os
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.errors import FloodWait, ChannelInvalid, ChannelPrivate
-from AnnieXMedia import app
-from AnnieXMedia.misc import SUDOERS
+from DestinyxMusic import app
+from DestinyxMusic.misc import SUDOERS
 
 
 @app.on_message(filters.command("givelink"))

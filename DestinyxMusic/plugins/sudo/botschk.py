@@ -2,8 +2,8 @@
 import asyncio
 from datetime import datetime
 from pyrogram import filters
-from AnnieXMedia import app
-from AnnieXMedia.core.userbot import Userbot
+from DestinyxMusic import app
+from DestinyxMusic.core.userbot import Userbot
 from config import OWNER_ID
 
 userbot = Userbot()

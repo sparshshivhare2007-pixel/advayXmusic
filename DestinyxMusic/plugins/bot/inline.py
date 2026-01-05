@@ -6,9 +6,9 @@ from pyrogram.types import (
 )
 from youtubesearchpython.aio import VideosSearch
 
-from AnnieXMedia.utils.inlinequery import answer
+from DestinyxMusic.utils.inlinequery import answer
 from config import BANNED_USERS
-from AnnieXMedia import app
+from DestinyxMusic import app
 
 
 @app.on_inline_query(~BANNED_USERS)

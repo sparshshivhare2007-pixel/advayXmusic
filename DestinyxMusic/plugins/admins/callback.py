@@ -13,10 +13,10 @@ from config import (
     TELEGRAM_VIDEO_URL,
 )
 from strings import get_string
-from AnnieXMedia import YouTube, app
-from AnnieXMedia.core.call import StreamController
-from AnnieXMedia.misc import db
-from AnnieXMedia.utils.database import (
+from DestinyxMusic import YouTube, app
+from DestinyxMusic.core.call import StreamController
+from DestinyxMusic.misc import db
+from DestinyxMusic.utils.database import (
     get_active_chats,
     get_assistant,
     get_lang,
@@ -26,11 +26,11 @@ from AnnieXMedia.utils.database import (
     music_on,
     set_loop,
 )
-from AnnieXMedia.utils.decorators import ActualAdminCB, languageCB
-from AnnieXMedia.utils.formatters import seconds_to_min
-from AnnieXMedia.utils.inline import close_markup, stream_markup, stream_markup_timer
-from AnnieXMedia.utils.stream.autoclear import auto_clean
-from AnnieXMedia.utils.thumbnails import get_thumb
+from DestinyxMusic.utils.decorators import ActualAdminCB, languageCB
+from DestinyxMusic.utils.formatters import seconds_to_min
+from DestinyxMusic.utils.inline import close_markup, stream_markup, stream_markup_timer
+from DestinyxMusic.utils.stream.autoclear import auto_clean
+from DestinyxMusic.utils.thumbnails import get_thumb
 
 
 checker = {}

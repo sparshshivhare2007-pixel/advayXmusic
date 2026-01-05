@@ -4,7 +4,7 @@ import textwrap
 from PIL import Image, ImageDraw, ImageFont
 from pyrogram import filters
 from pyrogram.types import Message
-from AnnieXMedia import app
+from DestinyxMusic import app
 
 @app.on_message(filters.command("mmf"))
 async def mmf(_, message: Message):
@@ -41,7 +41,7 @@ async def drawText(image_path, text):
     if os.name == "nt":
         fnt = "arial.ttf"
     else:
-        fnt = "./AnnieXMedia/assets/default.ttf"
+        fnt = "./DestinyxMusic/assets/default.ttf"
 
     m_font = ImageFont.truetype(fnt, int((70 / 640) * i_width))
 

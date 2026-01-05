@@ -2,7 +2,7 @@
 import random
 from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from AnnieXMedia import app
+from DestinyxMusic import app
 from config import BOT_USERNAME
 
 

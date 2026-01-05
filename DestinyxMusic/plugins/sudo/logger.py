@@ -1,10 +1,10 @@
 ﻿# Authored By Certified Coders © 2025
 from pyrogram import filters
 
-from AnnieXMedia import app
-from AnnieXMedia.misc import SUDOERS
-from AnnieXMedia.utils.database import add_off, add_on
-from AnnieXMedia.utils.decorators.language import language
+from DestinyxMusic import app
+from DestinyxMusic.misc import SUDOERS
+from DestinyxMusic.utils.database import add_off, add_on
+from DestinyxMusic.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)

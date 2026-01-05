@@ -1,8 +1,8 @@
 ﻿# Authored By Certified Coders © 2025
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from AnnieXMedia.utils.font_styles import Fonts
-from AnnieXMedia import app
+from DestinyxMusic.utils.font_styles import Fonts
+from DestinyxMusic import app
 
 
 @app.on_message(filters.command(["font", "fonts"]))

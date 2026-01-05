@@ -5,10 +5,10 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from AnnieXMedia import app
-from AnnieXMedia.misc import SUDOERS
-from AnnieXMedia.utils import get_readable_time
-from AnnieXMedia.utils.database import (
+from DestinyxMusic import app
+from DestinyxMusic.misc import SUDOERS
+from DestinyxMusic.utils import get_readable_time
+from DestinyxMusic.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
@@ -16,8 +16,8 @@ from AnnieXMedia.utils.database import (
     is_banned_user,
     remove_banned_user,
 )
-from AnnieXMedia.utils.decorators.language import language
-from AnnieXMedia.utils.extraction import extract_user
+from DestinyxMusic.utils.decorators.language import language
+from DestinyxMusic.utils.extraction import extract_user
 from config import BANNED_USERS
 
 

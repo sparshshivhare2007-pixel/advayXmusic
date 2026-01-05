@@ -12,15 +12,15 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from AnnieXMedia import app
-from AnnieXMedia.misc import HAPP, SUDOERS, XCB
-from AnnieXMedia.utils.database import (
+from DestinyxMusic import app
+from DestinyxMusic.misc import HAPP, SUDOERS, XCB
+from DestinyxMusic.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
 )
-from AnnieXMedia.utils.decorators.language import language
-from AnnieXMedia.utils.pastebin import ANNIEBIN
+from DestinyxMusic.utils.decorators.language import language
+from DestinyxMusic.utils.pastebin import ANNIEBIN
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -140,7 +140,7 @@ async def update_(client, message, _):
                 text=_["server_10"].format(err),
             )
     else:
-        os.execv(sys.executable, [sys.executable, "-m", "AnnieXMedia"])
+        os.execv(sys.executable, [sys.executable, "-m", "DestinyxMusic"])
 
 
 @app.on_message(filters.command(["restart"]) & SUDOERS)
@@ -164,4 +164,4 @@ async def restart_(_, message):
         "» ʀᴇsᴛᴀʀᴛ ᴘʀᴏᴄᴇss sᴛᴀʀᴛᴇᴅ, ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ғᴏʀ ғᴇᴡ sᴇᴄᴏɴᴅs ᴜɴᴛɪʟ ᴛʜᴇ ʙᴏᴛ sᴛᴀʀᴛs..."
     )
 
-    os.execv(sys.executable, [sys.executable, "-m", "AnnieXMedia"])
+    os.execv(sys.executable, [sys.executable, "-m", "DestinyxMusic"])

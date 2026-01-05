@@ -3,10 +3,10 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS
-from AnnieXMedia import app
-from AnnieXMedia.core.call import StreamController
-from AnnieXMedia.utils.database import group_assistant
-from AnnieXMedia.utils.admin_filters import admin_filter
+from DestinyxMusic import app
+from DestinyxMusic.core.call import StreamController
+from DestinyxMusic.utils.database import group_assistant
+from DestinyxMusic.utils.admin_filters import admin_filter
 
 
 @app.on_message(filters.command(["vcinfo", "vcmembers"]) & filters.group & admin_filter & ~BANNED_USERS)

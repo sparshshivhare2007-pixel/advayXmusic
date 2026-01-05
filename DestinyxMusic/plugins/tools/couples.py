@@ -9,12 +9,12 @@ from pyrogram import errors, filters
 from pyrogram.enums import ChatType
 from pyrogram.types import Message
 
-from AnnieXMedia import app
-from AnnieXMedia.core.dir import COUPLE_DIR
-from AnnieXMedia.mongo.couples_db import get_couple, save_couple
+from DestinyxMusic import app
+from DestinyxMusic.core.dir import COUPLE_DIR
+from DestinyxMusic.mongo.couples_db import get_couple, save_couple
 
 
-ASSETS = Path("AnnieXMedia/assets")
+ASSETS = Path("DestinyxMusic/assets")
 FALLBACK = ASSETS / "upic.png"
 OUT_DIR = Path(COUPLE_DIR)
 

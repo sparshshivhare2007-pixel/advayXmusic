@@ -8,10 +8,10 @@ from datetime import datetime
 import aiofiles
 from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
 
-from AnnieXMedia import app
+from DestinyxMusic import app
 from config import LOGGER_ID, DEBUG_IGNORE_LOG
-from AnnieXMedia.utils.exceptions import is_ignored_error
-from AnnieXMedia.utils.pastebin import ANNIEBIN
+from DestinyxMusic.utils.exceptions import is_ignored_error
+from DestinyxMusic.utils.pastebin import ANNIEBIN
 
 
 DEBUG_LOG_FILE = "ignored_errors.log"

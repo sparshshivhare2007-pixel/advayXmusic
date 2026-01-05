@@ -10,23 +10,23 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from config import AYU, BANNED_USERS, lyrical
-from AnnieXMedia import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from AnnieXMedia.core.call import StreamController
-from AnnieXMedia.utils import seconds_to_min, time_to_seconds
-from AnnieXMedia.utils.channelplay import get_channeplayCB
-from AnnieXMedia.utils.decorators.language import languageCB
-from AnnieXMedia.utils.decorators.play import PlayWrapper
-from AnnieXMedia.utils.errors import capture_err, capture_callback_err
-from AnnieXMedia.utils.formatters import formats
-from AnnieXMedia.utils.inline import (
+from DestinyxMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from DestinyxMusic.core.call import StreamController
+from DestinyxMusic.utils import seconds_to_min, time_to_seconds
+from DestinyxMusic.utils.channelplay import get_channeplayCB
+from DestinyxMusic.utils.decorators.language import languageCB
+from DestinyxMusic.utils.decorators.play import PlayWrapper
+from DestinyxMusic.utils.errors import capture_err, capture_callback_err
+from DestinyxMusic.utils.formatters import formats
+from DestinyxMusic.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from AnnieXMedia.utils.logger import play_logs
-from AnnieXMedia.utils.stream.stream import stream
+from DestinyxMusic.utils.logger import play_logs
+from DestinyxMusic.utils.stream.stream import stream
 
 
 @app.on_message(

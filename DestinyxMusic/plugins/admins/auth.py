@@ -2,16 +2,16 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnnieXMedia import app
-from AnnieXMedia.utils import extract_user, int_to_alpha
-from AnnieXMedia.utils.database import (
+from DestinyxMusic import app
+from DestinyxMusic.utils import extract_user, int_to_alpha
+from DestinyxMusic.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from AnnieXMedia.utils.decorators import AdminActual, language
-from AnnieXMedia.utils.inline import close_markup
+from DestinyxMusic.utils.decorators import AdminActual, language
+from DestinyxMusic.utils.inline import close_markup
 from config import BANNED_USERS, adminlist
 
 

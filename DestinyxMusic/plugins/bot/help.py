@@ -5,17 +5,17 @@ from typing import Union
 from pyrogram import Client, filters, types
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from AnnieXMedia import app
-from AnnieXMedia.utils.database import get_lang
-from AnnieXMedia.utils.decorators.language import LanguageStart, languageCB
-from AnnieXMedia.utils.inline.help import (
+from DestinyxMusic import app
+from DestinyxMusic.utils.database import get_lang
+from DestinyxMusic.utils.decorators.language import LanguageStart, languageCB
+from DestinyxMusic.utils.inline.help import (
     action_sub_menu,
     first_page,
     help_back_markup,
     private_help_panel,
     second_page,
 )
-from AnnieXMedia.utils.inline.start import private_panel
+from DestinyxMusic.utils.inline.start import private_panel
 from config import BANNED_USERS, HELP_IMG_URL, SUPPORT_CHAT
 from strings import get_string, helpers
 

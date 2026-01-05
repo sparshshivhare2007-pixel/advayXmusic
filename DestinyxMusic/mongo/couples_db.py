@@ -1,5 +1,5 @@
 ﻿# Authored By Certified Coders © 2025
-from AnnieXMedia.core.mongo import mongodb
+from DestinyxMusic.core.mongo import mongodb
 
 coupledb = mongodb["couple"]
 

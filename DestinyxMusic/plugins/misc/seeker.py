@@ -1,8 +1,8 @@
 ﻿# Authored By Certified Coders © 2025
 import asyncio
 
-from AnnieXMedia.misc import db
-from AnnieXMedia.utils.database import get_active_chats, is_music_playing
+from DestinyxMusic.misc import db
+from DestinyxMusic.utils.database import get_active_chats, is_music_playing
 
 
 async def timer():

@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.enums import ParseMode
 import httpx
-from AnnieXMedia import app
+from DestinyxMusic import app
 
 TRUTH_API = "https://api.truthordarebot.xyz/v1/truth"
 DARE_API = "https://api.truthordarebot.xyz/v1/dare"

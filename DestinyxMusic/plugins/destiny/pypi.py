@@ -2,7 +2,7 @@
 from pyrogram import Client, filters
 from pyrogram.enums import ParseMode
 import requests
-from AnnieXMedia import app
+from DestinyxMusic import app
 
 
 def get_pypi_info(package_name):

@@ -3,8 +3,8 @@ import time
 
 import psutil
 
-from AnnieXMedia.misc import _boot_
-from AnnieXMedia.utils.formatters import get_readable_time
+from DestinyxMusic.misc import _boot_
+from DestinyxMusic.utils.formatters import get_readable_time
 
 
 async def bot_sys_stats():
