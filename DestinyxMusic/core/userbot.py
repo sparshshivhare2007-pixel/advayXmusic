@@ -21,35 +21,35 @@ GROUPS_TO_JOIN = [
 class Userbot:
     def __init__(self):
         self.one = Client(
-            "AnnieAssis1",
+            "DestinyxMusic1",
             config.API_ID,
             config.API_HASH,
             session_string=str(config.STRING1),
             no_updates=True,
         )
         self.two = Client(
-            "AnnieAssis2",
+            "DestinyxMusic2",
             config.API_ID,
             config.API_HASH,
             session_string=str(config.STRING2),
             no_updates=True,
         )
         self.three = Client(
-            "AnnieAssis3",
+            "DestinyxMusic3",
             config.API_ID,
             config.API_HASH,
             session_string=str(config.STRING3),
             no_updates=True,
         )
         self.four = Client(
-            "AnnieAssis4",
+            "DestinyxMusic4",
             config.API_ID,
             config.API_HASH,
             session_string=str(config.STRING4),
             no_updates=True,
         )
         self.five = Client(
-            "AnnieAssis5",
+            "DestinyxMusic5",
             config.API_ID,
             config.API_HASH,
             session_string=str(config.STRING5),
