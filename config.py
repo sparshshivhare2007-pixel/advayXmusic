@@ -21,8 +21,7 @@ ASSUSERNAME = getenv("ASSUSERNAME", "OYE_NIRVI")
 
 # ── Database & logging ──────────────────────────────────────
 MONGO_DB_URI = getenv("MONGO_DB_URI")
-LOGGER_ID = int(getenv("LOGGER_ID", none))
-
+LOGGER_ID = 0
 # ── Limits ──────────────────────────────────────────────────
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "1200"))
