@@ -38,7 +38,7 @@ API_URL = "https://shrutibots.site"
 VIDEO_API_URL = getenv("VIDEO_API_URL")
 API_KEY = getenv("API_KEY")
 DEEP_API = getenv("DEEP_API")
-
+COOKIE_URL = None
 # ── Hosting / deployment ────────────────────────────────────
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
