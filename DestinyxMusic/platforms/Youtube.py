@@ -16,7 +16,7 @@ from DestinyxMusic import LOGGER
 try:
     from py_yt import VideosSearch
 except ImportError:
-    from youtubesearchpython.__future__ import VideosSearch
+    from youtubesearchpython import VideosSearch
 
 
 # API Downloader (Shruti style)
